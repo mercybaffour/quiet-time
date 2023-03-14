@@ -132,6 +132,7 @@ body {
     text-align: center;
     color: #fff;
     white-space: pre;
+    overflow: scroll;
 }
 
 .dashboard-player {
