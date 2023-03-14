@@ -8,11 +8,13 @@ export default function DevotionalPage() {
     return (
         <>
             <Navbar />
-            <p>To begin a devotional session, you must first login with Spotify.</p>
-            <Button className="login-btn">
-            {/* auth request, we get the code params which will be used to get the access_token */}
-                <Link className="login-link" href={AUTH_URL}>Login with Spotify</Link>
-            </Button>
+            <div className="container">
+                <h4>To begin a devotional session, you must first login with Spotify.</h4>
+                <button className="btn spotify-login-btn">
+                {/* auth request, we get the code params which will be used to get the access_token */}
+                    <Link className="login-link" href={AUTH_URL}>Login with Spotify</Link>
+                </button>
+            </div>
         </>
     )
 }
