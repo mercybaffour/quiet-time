@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import DevotionalSession from '../components/devotionalsession/DevotionalSession'
-import { Modal, Container, Box} from '@mui/material'
+import { Modal, Box} from '@mui/material'
 import Navbar from '../components/Navbar'
 
 const style = {

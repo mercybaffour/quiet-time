@@ -3,6 +3,14 @@ body {
     margin: 0%;
 }
 
+/* AUTH - Login/Register Page */
+
+.auth-span {
+    color: dodgerblue;
+    min-height:40px;
+    cursor: pointer;
+}
+
 /* HomePage */
 .hero {
     text-align: center;
@@ -38,8 +46,14 @@ body {
     margin: 0 auto;
 }
 
+.control-btn {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
 /* DevotionalPage - Music Player */
-.player-container {
+.modal-container {
     position: relative;
     height: 100vh;
     display: flex;
@@ -53,7 +67,7 @@ body {
 
 .login-btn {
     position: absolute;
-    left: 25%;
+    left: 30%;
     bottom: 50%;
     width:350px;
     height:60px;

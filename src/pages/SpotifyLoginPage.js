@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Link} from '@mui/material'
+import {Link} from '@mui/material'
 import Navbar from '../components/Navbar'
 
 export default function DevotionalPage() {

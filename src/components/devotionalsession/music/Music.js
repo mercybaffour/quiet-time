@@ -11,7 +11,7 @@ export default function Music() {
 
   return (
     //conditionally rendering either the Login or Dashboard component based on the code value which we will fetch from the URL parameters
-    <Container className="player-container"> 
+    <Container className="modal-container"> 
       {code ? <Dashboard code={code} /> : <Login />}
     </Container>
   )
